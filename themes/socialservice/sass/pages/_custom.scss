@@ -1,0 +1,42 @@
+/*
+** style for site
+*/
+
+.block-header-banner {
+	.align-center {
+		width: 100%;
+		z-index: 9;
+		@include position(relative);
+		opacity: .75;
+		max-height: 625px;
+		height: 100%;
+	}
+	.align-left {
+		width: 100%;
+	  @include position(absolute,0);
+	  z-index: 8;
+	}
+	h2 {
+		@include position(absolute,45px,1%,0,1%);
+		z-index: 11;
+		@include text-align(center);
+		width: 18%;
+		@include margin(0,auto);
+	}
+}	
+
+.view-story {
+	.view-content {
+		@include inline-flex(inline-flex);
+		@include flex-wrap(wrap);
+	}
+}
+
+.wrap-row {
+	width: 30%;
+}
+
+.block-site-logo  {
+	@include position(absolute);
+	z-index: 15;
+}

@@ -1,0 +1,78 @@
+/*
+** site variable
+*/
+/*
+** mixin
+*/
+/*
+** mixin
+*/
+/*
+** site layout style
+*/
+/* line 5, ../sass/layout/_layout.scss */
+.layout-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1170px;
+}
+
+/*
+** style for site
+*/
+/* line 6, ../sass/pages/_custom.scss */
+.block-header-banner .align-center {
+  width: 100%;
+  z-index: 9;
+  position: relative;
+  opacity: .75;
+  max-height: 625px;
+  height: 100%;
+}
+/* line 14, ../sass/pages/_custom.scss */
+.block-header-banner .align-left {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 8;
+}
+/* line 19, ../sass/pages/_custom.scss */
+.block-header-banner h2 {
+  position: absolute;
+  top: 45px;
+  right: 1%;
+  bottom: 0;
+  left: 1%;
+  z-index: 11;
+  text-align: center;
+  width: 18%;
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/pages/_custom.scss */
+.view-story .view-content {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-box-wrap: wrap;
+  -ms-flexbox-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 35, ../sass/pages/_custom.scss */
+.wrap-row {
+  width: 30%;
+}
+
+/* line 39, ../sass/pages/_custom.scss */
+.block-site-logo {
+  position: absolute;
+  z-index: 15;
+}
